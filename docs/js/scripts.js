@@ -43,3 +43,12 @@ $(window).load(function(){
 		}
 	})
 })
+
+jQuery(function($) {
+	$('.referal-link__link_btn a').on('click', function(event) {
+		event.preventDefault();
+		$('.s-partnership .link').attr('style', 'background-color: #7ccb44');
+	})
+});
+
+// 
