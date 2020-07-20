@@ -2075,7 +2075,7 @@ footer .copy {
   padding-bottom: 0;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1023px) {
   .p-about .first_section,
   .p-about .p-profile .first_section {
     padding-top: 76px !important;
@@ -2086,6 +2086,17 @@ footer .copy {
     padding-bottom: 0;
   }
 }
+/* @media (max-width: 576px) {
+  .p-about .first_section,
+  .p-about .p-profile .first_section {
+    padding-top: 76px !important;
+    padding-bottom: 0 !important;
+  }
+
+  .p-about .global_title {
+    padding-bottom: 0;
+  }
+} */
 
 .p-about .info {
   max-width: 500px;
