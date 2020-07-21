@@ -1,0 +1,43 @@
+@media (max-width: 1199px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+
+    /*---------------
+        Header
+    ---------------*/
+    /*---------------
+        Main section
+    ---------------*/
+    .info_deposit .item .time:before
+    {
+        margin-right: 10px;
+    }
+
+    .info_deposit .item .link_btn a span
+    {
+        padding-right: 36px;
+    }
+
+    .link_btn a span:before
+    {
+        width: 30px;
+
+        background-position: 100% 0;
+    }
+
+
+    .how_start .items .item
+    {
+        padding-left: 38px;
+    }
+
+    .how_start .items .item .name
+    {
+        font-size: 16px;
+    }
+    /*---------------
+        Footer
+    ---------------*/
+}

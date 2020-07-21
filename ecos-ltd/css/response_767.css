@@ -1,0 +1,188 @@
+@media (max-width: 767px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    body
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .global_title
+    {
+        padding: 0;
+    }
+
+    .global_title .tit
+    {
+        display: none;
+    }
+
+
+    .main_title
+    {
+        font-size: 36px;
+        line-height: normal;
+    }
+
+    .text_block h1,
+    .text_block > .title
+    {
+        font-size: 36px;
+    }
+
+    .text_block p,
+    .text_block img
+    {
+        margin-bottom: 24px;
+    }
+    /*---------------
+        Header
+    ---------------*/
+    header .logo
+    {
+        max-width: 200px;
+    }
+
+    header .phone
+    {
+        display: none;
+    }
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section
+    {
+        padding-top: 100px;
+    }
+
+    .first_section .title
+    {
+        font-size: 60px;
+    }
+
+    .first_section .info
+    {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .first_section .desc
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .info_deposit .item .time:before
+    {
+        margin-right: 6px;
+    }
+
+    .info_deposit .item .time .in
+    {
+        font-size: 18px;
+    }
+
+    .info_deposit .item .time .text
+    {
+        font-size: 16px;
+    }
+
+    .info_deposit .item .percent
+    {
+        font-size: 50px;
+    }
+
+    .info_deposit .item .percent span
+    {
+        font-size: 36px;
+    }
+
+
+    .about .cols .col_r
+    {
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .about .cols .col_r .img
+    {
+        width: calc(55% - 15px);
+    }
+
+    .about .info .officially .box
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    .how_start
+    {
+        margin-top: 60px;
+    }
+
+    .how_start .items
+    {
+        margin-top: 0;
+    }
+
+    .how_start .items .item .name
+    {
+        font-size: 14px;
+    }
+
+
+    .section_bg
+    {
+        padding-bottom: 60px;
+    }
+
+    .section_bg2
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .affiliate .link_btn
+    {
+        margin-top: 30px;
+    }
+    /*---------------
+        Footer
+    ---------------*/
+    footer
+    {
+        padding: 50px 0;
+    }
+
+    footer .info .block
+    {
+        width: 100%;
+        margin-bottom: 30px;
+
+        text-align: center;
+    }
+
+    footer .info .logo img
+    {
+        margin: 0 auto;
+    }
+
+    footer .box_list
+    {
+        width: 234px;
+    }
+
+    footer .list .item a
+    {
+        padding-left: 14px;
+    }
+
+    footer .bottom
+    {
+        margin-top: 30px;
+    }
+}
